@@ -9,7 +9,6 @@ public interface IFlix {
 	 * @return list of movies or empty list
 	 */
 	public List<Movie> findAll ();
-	
 	/**
 	 * Finds all movies in the movie store which contains <strong>name</strong> in the title
 	 * @param name String
